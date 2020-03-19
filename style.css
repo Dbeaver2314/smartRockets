@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(rgb(16, 11, 92), rgb(175, 98, 98));
+}
+h1 {
+  color: white;
+}
+.rightText {
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 1em;
+  width: 30%;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  color: white;
+  font-size: 1.5em;
+}
+@media (max-width: 1290px) {
+  .rightText {
+    border: 0px;
+    width: auto;
+    font-size: 12px;
+    position: relative;
+    margin-left: 100px;
+    padding-bottom: 6em;
+  }
+}
